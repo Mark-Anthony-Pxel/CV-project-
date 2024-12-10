@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    max-width: 90vh;
+    border: 3px solid black;
+    margin: 5vh;
+    padding: 20px;
+    background-color: white;
+}
+
+.name-holder {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.hr-style-custom {
+    border: 2px solid;
+    border-color: darkslategray;
+}
+
+.name-custom {
+    margin: 15px;
+}
+
+.profession-holder,
+.skill-holder,
+.personal-holder,
+.education-holder,
+.exprience-holder,
+.socialmedia-holder {
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+.profession-custom {
+    font-size: x-large;
+    color: green;
+}
+
+
+.skill-text {
+    font-size: medium;
+}
+
+.personal-text {
+    margin: 8px 0;
+}
+
+.title-holder {
+    color: green;
+    font-size: large;
+    margin: 5px 0;
+}
+
+.education-title {
+    font-weight: 500;
+    color: rgb(60, 139, 165);
+    font-size: larger;
+}
+
+.education-date {
+    margin-bottom: 10px;
+}
+
+.education-description {
+    line-height: 1.5;
+}
+
+.unordered-list {
+    margin-left: 20px;
+    margin: 10px 20px;
+}
+
+
+.list-gap {
+    margin: 10px 0;
+}
+
+.custom-link li, a {
+    color: darkgreen;
+    text-decoration: none;
+    position: relative;
+}
+
+.link-gap {
+    padding: 20px;
+    position: relative;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    margin-bottom: 10px;
+}
+
+.link-gap:hover {
+    background-color: aliceblue;
+}
